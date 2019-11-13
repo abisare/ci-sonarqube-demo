@@ -1,5 +1,5 @@
 concurrent = 10
-check_interval = 60
+check_interval = 15
 
 [session_server]
   session_timeout = 1800
