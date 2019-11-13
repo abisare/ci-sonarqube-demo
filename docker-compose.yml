@@ -30,7 +30,7 @@ services:
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - ./config.toml:/etc/gitlab-runner/config.toml
-      - ./sonar-scanner/:/var/sonar-scanner/
+      - ./sonar-scanner-4.0.0.1744-linux/:/var/sonar-scanner/
     restart: always
 
 volumes:
